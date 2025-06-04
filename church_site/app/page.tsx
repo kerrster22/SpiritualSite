@@ -4,6 +4,10 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Clock, Users, Sparkles } from "lucide-react"
 import church from "../app/public/church.png"
+import img1 from "../app/public/1.jpg"
+import img2 from "../app/public/4.jpg"
+import img3 from "../app/public/6.jpg"
+
 
 export default function Home() {
   return (
@@ -60,9 +64,9 @@ export default function Home() {
         <section className="text-center mb-16">
           <h2 className="text-3xl font-semibold mb-6 text-deep-purple">Our Community</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            <Image src="/community-1.jpg" alt="Community gathering" width={400} height={300} className="rounded-lg" />
-            <Image src="/community-2.jpg" alt="Healing session" width={400} height={300} className="rounded-lg" />
-            <Image src="/community-3.jpg" alt="Meditation group" width={400} height={300} className="rounded-lg" />
+            <Image src={img1} alt="Community gathering" width={400} height={300} className="rounded-lg" />
+            <Image src={img2} alt="Healing session" width={400} height={300} className="rounded-lg" />
+            <Image src={img3} alt="Meditation group" width={400} height={300} className="rounded-lg" />
           </div>
         </section>
 

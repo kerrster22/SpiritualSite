@@ -1,13 +1,36 @@
 import Image from "next/image"
 
+import img1 from "../public/1.jpg";
+import img2 from "../public/2.jpg";
+import img3 from "../public/3.jpg";
+import img4 from "../public/4.jpg";
+import img5 from "../public/5.jpg";
+import img6 from "../public/6.jpg";
+import img7 from "../public/7.jpg";
+import img8 from "../public/8.jpg";
+import img9 from "../public/9.jpg";
+import img10 from "../public/10.jpg";
+import img11 from "../public/11.jpg";
+import img12 from "../public/12.jpg";
+import img13 from "../public/13.jpg";
+import img14 from "../public/14.jpg";
+
 const galleryImages = [
-  { src: "/service-1.jpg", alt: "Divine Service", caption: "Divine Service" },
-  { src: "/service-2.jpg", alt: "Healing Service", caption: "Healing Service" },
-  { src: "/meditation.jpg", alt: "Meditation Session", caption: "Meditation Session" },
-  { src: "/community-event.jpg", alt: "Community Event", caption: "Community Event" },
-  { src: "/church-interior.jpg", alt: "Church Interior", caption: "Our Church Interior" },
-  { src: "/healing-room.jpg", alt: "Healing Room", caption: "Healing Room" },
-]
+  { src: img1, alt: "Image 1" },
+  { src: img2, alt: "Image 2" },
+  { src: img3, alt: "Image 3" },
+  { src: img4, alt: "Image 4" },
+  { src: img5, alt: "Image 5" },
+  { src: img6, alt: "Image 6" },
+  { src: img7, alt: "Image 7" },
+  { src: img8, alt: "Image 8" },
+  { src: img9, alt: "Image 9" },
+  { src: img10, alt: "Image 10"},
+  { src: img11, alt: "Image 11"},
+  { src: img12, alt: "Image 12"},
+  { src: img13, alt: "Image 13"},
+  { src: img14, alt: "Image 14"}
+];
 
 export default function Gallery() {
   return (
@@ -23,7 +46,6 @@ export default function Gallery() {
               height={300}
               className="rounded-lg shadow-md"
             />
-            <p className="mt-2 text-center text-gray-700">{image.caption}</p>
           </div>
         ))}
       </div>

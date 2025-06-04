@@ -1,6 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Clock, Users, Sparkles } from "lucide-react"
 import Image from "next/image"
+import img1 from "../public/6.jpg"
+import img2 from "../public/7.jpg"
+import img3 from "../public/12.jpg"
 
 export default function Services() {
   return (
@@ -48,7 +51,7 @@ export default function Services() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div>
               <Image
-                src="/divine-service.jpg"
+                src={img2}
                 alt="Divine Service"
                 width={400}
                 height={300}
@@ -58,7 +61,7 @@ export default function Services() {
             </div>
             <div>
               <Image
-                src="/healing-service.jpg"
+                src={img1}
                 alt="Healing Service"
                 width={400}
                 height={300}
@@ -68,7 +71,7 @@ export default function Services() {
             </div>
             <div>
               <Image
-                src="/meditation-session.jpg"
+                src={img3}
                 alt="Meditation Session"
                 width={400}
                 height={300}
