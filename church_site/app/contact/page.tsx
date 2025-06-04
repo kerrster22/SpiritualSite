@@ -10,7 +10,7 @@ export default function Contact() {
       <h1 className="text-4xl sm:text-5xl font-bold mb-12 text-center text-gradient">Contact Us</h1>
       <div className="max-w-4xl mx-auto">
         <p className="text-xl mb-12 text-center">
-          We're here to answer any questions you may have about our spiritual community. Reach out to us for more
+          We&apos;re here to answer any questions you may have about our spiritual community. Reach out to us for more
           information or to join our services.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">

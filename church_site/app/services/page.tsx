@@ -42,7 +42,7 @@ export default function Services() {
         </Card>
         <div className="text-center">
           <p className="text-xl mb-8">
-            After each service, we invite you to stay for refreshments and a friendly chat. It's a great opportunity to
+            After each service, we invite you to stay for refreshments and a friendly chat. It&apos;s a great opportunity to
             connect with our community and share experiences.
           </p>
         </div>
