@@ -41,7 +41,7 @@ export default function Home() {
               <CardContent className="p-6">
                 <Clock className="w-12 h-12 text-sage mb-4" />
                 <h3 className="text-xl font-semibold mb-2">When We Meet</h3>
-                <p>Tuesdays at 7:00 PM (excluding August)</p>
+                <p>Tuesdays at 7:30 PM (excluding August)</p>
               </CardContent>
             </Card>
             <Card>
@@ -76,9 +76,6 @@ export default function Home() {
             No matter your experience with Spiritualism, we invite you to join us for our services and community
             gatherings.
           </p>
-          <Button asChild size="lg" className="bg-sage hover:bg-sage/80 text-white">
-            <Link href="/contact">Contact Us</Link>
-          </Button>
         </section>
       </div>
     </div>

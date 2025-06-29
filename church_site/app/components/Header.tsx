@@ -21,6 +21,8 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
+  const navItems = ["Home", "Services", "History", "Gallery", "Calendar"]
+
   return (
     <header
       className={cn(
@@ -57,7 +59,7 @@ const Header = () => {
           )}
           id="mobile-menu"
         >
-          {["Home", "Services", "History", "Gallery"].map((item) => (
+          {navItems.map((item) => (
             <li key={item}>
               <Link
                 href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
@@ -78,4 +80,3 @@ const Header = () => {
 }
 
 export default Header
-

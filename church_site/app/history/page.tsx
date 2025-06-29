@@ -6,14 +6,14 @@ export default function History() {
       <h1 className="text-4xl sm:text-5xl font-bold mb-12 text-center text-gradient">Our History</h1>
       <div className="max-w-4xl mx-auto">
         <p className="text-xl mb-12 text-center">
-          Sheringham Spiritualist Church has a rich history spanning over six decades. We&apos;re proud of our journey and
+          Sheringham Spiritualist Church has a rich history spanning six decades. We&apos;re proud of our journey and
           excited for our future.
         </p>
         <Card className="mb-8">
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold mb-4 text-deep-purple">The Founding</h2>
             <p>
-              Our church was founded by Charlie Pussel and Joyce, a medium, in a flat on Hallway Road owned by Mrs.
+              Our church was founded by Charlie Postle and Joyce, a medium, in a flat on Holway Road owned by Mrs.
               Earl. From these humble beginnings, we&apos;ve grown into the vibrant community we are today.
             </p>
           </CardContent>
@@ -23,10 +23,11 @@ export default function History() {
             <h2 className="text-2xl font-semibold mb-4 text-deep-purple">Our Journey</h2>
             <p>Over the years, our church has moved to several locations:</p>
             <ul className="list-disc list-inside mt-4 space-y-2">
-              <li>Good Companions Hall, Creamers Drift</li>
-              <li>Quaker Meeting House, Creamers Street</li>
+              <li>Good Companions Hall, Creamer Drift</li>
+              <li>Quaker Meeting House, Creamer Street</li>
               <li>St. John&apos;s Hall</li>
-              <li>Odd Fellows Hall (our current location)</li>
+              <li>Odd Fellows Hall life boat plain</li>
+              <li>Later Life Care, Cromer Rd (Current location)</li>
             </ul>
           </CardContent>
         </Card>

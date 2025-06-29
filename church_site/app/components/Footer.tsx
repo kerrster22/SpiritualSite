@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-deep-purple text-cream py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-2xl font-semibold mb-4">Sheringham Spiritualist Church</h3>
             <address className="not-italic">
@@ -19,6 +19,7 @@ const Footer = () => {
               </p>
             </address>
           </div>
+
           <div>
             <h3 className="text-2xl font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
@@ -39,6 +40,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+
           <div>
             <h3 className="text-2xl font-semibold mb-4">Connect With Us</h3>
             <div className="flex space-x-4 mb-4">
@@ -47,14 +49,34 @@ const Footer = () => {
               </a>
             </div>
           </div>
+
+          <div>
+            <h3 className="text-2xl font-semibold mb-4">Charity Info</h3>
+            <ul className="space-y-1 text-sm">
+              <li>Charity Number: 1007811</li>
+              <li>Registered: 6 February 1992</li>
+            </ul>
+          </div>
         </div>
+
         <div className="mt-8 pt-8 border-t border-cream/20 text-center">
           <p>&copy; {new Date().getFullYear()} Sheringham Spiritualist Church. All rights reserved.</p>
-        </div>
+        <br />
+            <span>
+              Website design & development by{" "}
+              <a
+                href="https://www.hayden-kerr.co.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-warm-yellow hover:underline font-medium"
+                >
+                Hayden Kerr
+              </a>. Looking for a site like this? Let’s work together.
+            </span>
+                </div>
       </div>
     </footer>
   )
 }
 
 export default Footer
-

@@ -19,7 +19,7 @@ export default function Services() {
             <CardContent className="p-6">
               <Clock className="w-12 h-12 text-sage mb-4" />
               <h3 className="text-xl font-semibold mb-2">When We Meet</h3>
-              <p>Tuesdays at 7:00 PM (excluding August)</p>
+              <p>Tuesdays at 7:30 PM (excluding August)</p>
             </CardContent>
           </Card>
           <Card>
