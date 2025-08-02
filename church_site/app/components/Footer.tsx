@@ -13,8 +13,8 @@ const Footer = () => {
               <p className="mb-2">Cromer Rd, Sheringham NR26 8RS</p>
               <p>
                 Email:{" "}
-                <a href="mailto:info@sheringhamspiritualistchurch.org" className="hover:underline">
-                  info@sheringhamspiritualistchurch.org
+                <a href="mailto:june.winchester@icloud.com" className="hover:underline">
+                  june.winchester@icloud.com
                 </a>
               </p>
             </address>

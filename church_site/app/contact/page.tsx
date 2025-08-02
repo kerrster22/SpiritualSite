@@ -55,8 +55,8 @@ export default function Contact() {
               <div className="flex items-center space-x-4">
                 <Mail className="w-6 h-6 text-sage flex-shrink-0" />
                 <p>
-                  <a href="mailto:info@sheringhamspiritualistchurch.org" className="hover:underline">
-                    info@sheringhamspiritualistchurch.org
+                  <a href="mailto:june.winchester@icloud.com" className="hover:underline">
+                    june.winchester@icloud.com
                   </a>
                 </p>
               </div>
