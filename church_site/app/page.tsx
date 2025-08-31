@@ -7,11 +7,13 @@ import church from "../app/public/church.png"
 import img1 from "../app/public/1.jpg"
 import img2 from "../app/public/4.jpg"
 import img3 from "../app/public/6.jpg"
+import EventAnnouncement from "./components/EventAnnouncement"
 
 
 export default function Home() {
   return (
     <div>
+      <EventAnnouncement enablePopup={true} />
       <section className="relative h-screen flex items-center justify-center">
         <Image
           src={church}
